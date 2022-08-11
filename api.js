@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended: true}));
 app.use('/public', express.static(__dirname + '/public'));
 app.use(bodyParser.json())
 
-const contenedor = require("../Clase4/Contenedor.js");
+const contenedor = require("/Contenedor.js");
 const { json } = require("body-parser");
 
 const container = new contenedor("file.txt")
