@@ -125,26 +125,26 @@ class contenedor {
 
 module.exports = contenedor
 
-const originals = {
-    name: "Adidas Originals",
-    price: 30000,
-    thumbnail: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Zapatillas_Superstar_Blanco_EG4958_01_standard.jpgd"
+const amoladora = {
+    name: "Amoladora",
+    price: 50000,
+    thumbnail: "https://http2.mlstatic.com/D_NQ_NP_989148-MLA42685385995_072020-O.webp"
 }
-const jordans = {
-    name: "Air Jordan 4 Retro Kaws",
-    price: 100000,
-    thumbnail: "https://cdn-images.farfetch-contents.com/12/95/91/37/12959137_13486346_1000.jpg"
+const taladro = {
+    name: "Taladro",
+    price: 75000,
+    thumbnail: "https://http2.mlstatic.com/D_NQ_NP_633420-MLA45467093493_042021-O.webp"
 }
-const airForce = {
-    name: "Nike Air-Force",
-    price: 25000,
-    thumbnail: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7ed0855435194229a525aad6009a0497_9366/Zapatillas_Superstar_Blanco_EG4958_01_standard.jpgd"
+const rotomartillo = {
+    name: "Rotomartillo",
+    price: 43000,
+    thumbnail: "https://http2.mlstatic.com/D_NQ_NP_727422-MLA40605811946_012020-O.webp"
 }
 
 const archivo = new contenedor ("archivo.txt");
 
 //archivo.deleteAll();
-//archivo.save(airForce);
-//archivo.save(originals)
-//archivo.save(jordans)
+//archivo.save(amoladora);
+//archivo.save(taladro);
+//archivo.save(rotomartillo);
 //archivo.getAll()
